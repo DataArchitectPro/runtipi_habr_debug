@@ -1,0 +1,300 @@
+[
+    {
+        "Id": "7000fd704c3f31b4b23f24160a8d2ecaa6c79911226eb5be5389b8e892ab67eb",
+        "Created": "2025-12-15T13:17:07.977239986Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "postgres"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 1820,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-12-26T07:22:28.14604693Z",
+            "FinishedAt": "2025-12-26T07:22:24.572199638Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-12-26T23:50:18.488819535+05:00",
+                        "End": "2025-12-26T23:50:18.555159872+05:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2025-12-26T23:50:23.556166905+05:00",
+                        "End": "2025-12-26T23:50:23.623565512+05:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2025-12-26T23:50:28.624919314+05:00",
+                        "End": "2025-12-26T23:50:28.696954196+05:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2025-12-26T23:50:33.697902193+05:00",
+                        "End": "2025-12-26T23:50:33.776349158+05:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2025-12-26T23:50:38.777367269+05:00",
+                        "End": "2025-12-26T23:50:38.849226533+05:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:da076311f78c56e4bf6548ef3668fa77fa2865c5efca3f79a6d6bb9b3710b477",
+        "ResolvConfPath": "/var/lib/docker/containers/7000fd704c3f31b4b23f24160a8d2ecaa6c79911226eb5be5389b8e892ab67eb/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/7000fd704c3f31b4b23f24160a8d2ecaa6c79911226eb5be5389b8e892ab67eb/hostname",
+        "HostsPath": "/var/lib/docker/containers/7000fd704c3f31b4b23f24160a8d2ecaa6c79911226eb5be5389b8e892ab67eb/hosts",
+        "LogPath": "/var/lib/docker/containers/7000fd704c3f31b4b23f24160a8d2ecaa6c79911226eb5be5389b8e892ab67eb/7000fd704c3f31b4b23f24160a8d2ecaa6c79911226eb5be5389b8e892ab67eb-json.log",
+        "Name": "/runtipi-db",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/opt/runtipi/data/postgres:/var/lib/postgresql/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "runtipi_tipi_main_network",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/data/postgres",
+                "Destination": "/var/lib/postgresql/data",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "7000fd704c3f",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "5432/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "POSTGRES_USER=tipi",
+                "POSTGRES_DB=tipi",
+                "POSTGRES_PASSWORD=de99dab210bd657f588844adc4d0377b",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/14/bin",
+                "GOSU_VERSION=1.19",
+                "LANG=en_US.utf8",
+                "PG_MAJOR=14",
+                "PG_VERSION=14.20-1.pgdg13+1",
+                "PGDATA=/var/lib/postgresql/data"
+            ],
+            "Cmd": [
+                "postgres"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "pg_isready -d tipi -U tipi"
+                ],
+                "Interval": 5000000000,
+                "Timeout": 10000000000,
+                "StartPeriod": 5000000000,
+                "Retries": 20
+            },
+            "Image": "postgres:14",
+            "Volumes": {
+                "/var/lib/postgresql/data": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "e77725559d6a7de315642fd66da40fb2c10eedb71ef588a4f1c15c41eee48c84",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:da076311f78c56e4bf6548ef3668fa77fa2865c5efca3f79a6d6bb9b3710b477",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "runtipi",
+                "com.docker.compose.project.config_files": "/opt/runtipi/docker-compose.yml",
+                "com.docker.compose.project.environment_file": "/opt/runtipi/.env",
+                "com.docker.compose.project.working_dir": "/opt/runtipi",
+                "com.docker.compose.service": "runtipi-db",
+                "com.docker.compose.version": "5.0.0"
+            },
+            "StopSignal": "SIGINT",
+            "StopTimeout": 60
+        },
+        "NetworkSettings": {
+            "SandboxID": "36cf48f4c4b29305db7dbb56c433ee57e08b46bb8edeb9e49a14c9e43de97962",
+            "SandboxKey": "/var/run/docker/netns/36cf48f4c4b2",
+            "Ports": {
+                "5432/tcp": null
+            },
+            "Networks": {
+                "runtipi_tipi_main_network": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "runtipi-db",
+                        "runtipi-db"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "375fafe267b24b0e7348af87c8325f5deddf432a17709fb11e61d792f288956a",
+                    "EndpointID": "aadab327ea2e6b49550aa10692f75bebf452236a4f79c364fce5137f3f909373",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.10",
+                    "MacAddress": "f6:ac:8f:cc:4d:e1",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "runtipi-db",
+                        "7000fd704c3f"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:137131084ecce832d89784e259ebfa26f04dabd6d820a51de0750d588e421051",
+            "size": 3627,
+            "annotations": {
+                "com.docker.official-images.bashbrew.arch": "amd64",
+                "org.opencontainers.image.base.digest": "sha256:335d26b968695837d1566c442de2a4026049b26ecb8567be2b00f7a900c13637",
+                "org.opencontainers.image.base.name": "debian:trixie-slim",
+                "org.opencontainers.image.created": "2025-12-08T23:03:45Z",
+                "org.opencontainers.image.revision": "2925b19f45ceeb8ab8488eec226f2736abf297e1",
+                "org.opencontainers.image.source": "https://github.com/docker-library/postgres.git#2925b19f45ceeb8ab8488eec226f2736abf297e1:14/trixie",
+                "org.opencontainers.image.url": "https://hub.docker.com/_/postgres",
+                "org.opencontainers.image.version": "14.20"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

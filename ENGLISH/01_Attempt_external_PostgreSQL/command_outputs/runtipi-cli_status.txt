@@ -1,0 +1,1 @@
+sudo: ./runtipi-cli: command not found

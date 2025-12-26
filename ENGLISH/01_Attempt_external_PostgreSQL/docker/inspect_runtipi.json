@@ -1,0 +1,472 @@
+[
+    {
+        "Id": "9809e215336e3d0a43b75052d386960c789fb5dd79d2a9e91afc3ef4cbbe4318",
+        "Created": "2025-12-26T19:29:10.625306823Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "node",
+            "./main.mjs"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 663962,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-12-26T19:29:16.957966919Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-12-27T00:30:42.884114517+05:00",
+                        "End": "2025-12-27T00:30:42.924733878+05:00",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    95  100    95    0     0  56379      0 --:--:-- --:--:-- --:--:-- 95000\n{\"status\":\"ok\",\"info\":{\"queue\":{\"status\":\"up\"}},\"error\":{},\"details\":{\"queue\":{\"status\":\"up\"}}}"
+                    },
+                    {
+                        "Start": "2025-12-27T00:30:47.925666395+05:00",
+                        "End": "2025-12-27T00:30:47.967176547+05:00",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    95  100    95    0     0  59263      0 --:--:-- --:--:-- --:--:-- 95000\n{\"status\":\"ok\",\"info\":{\"queue\":{\"status\":\"up\"}},\"error\":{},\"details\":{\"queue\":{\"status\":\"up\"}}}"
+                    },
+                    {
+                        "Start": "2025-12-27T00:30:52.967952267+05:00",
+                        "End": "2025-12-27T00:30:53.014047843+05:00",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    95  100    95    0     0  54038      0 --:--:-- --:--:-- --:--:-- 95000\n{\"status\":\"ok\",\"info\":{\"queue\":{\"status\":\"up\"}},\"error\":{},\"details\":{\"queue\":{\"status\":\"up\"}}}"
+                    },
+                    {
+                        "Start": "2025-12-27T00:30:58.014975407+05:00",
+                        "End": "2025-12-27T00:30:58.054615321+05:00",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    95  100    95    0     0  59486      0 --:--:-- --:--:-- --:--:-- 95000\n{\"status\":\"ok\",\"info\":{\"queue\":{\"status\":\"up\"}},\"error\":{},\"details\":{\"queue\":{\"status\":\"up\"}}}"
+                    },
+                    {
+                        "Start": "2025-12-27T00:31:03.05618182+05:00",
+                        "End": "2025-12-27T00:31:03.09505269+05:00",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    95  100    95    0     0  60702      0 --:--:-- --:--:-- --:--:-- 95000\n{\"status\":\"ok\",\"info\":{\"queue\":{\"status\":\"up\"}},\"error\":{},\"details\":{\"queue\":{\"status\":\"up\"}}}"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:db0d1b187b7b148c9a9bfddf4f3d9f51aa12630f120594b309e1579280b9589c",
+        "ResolvConfPath": "/var/lib/docker/containers/9809e215336e3d0a43b75052d386960c789fb5dd79d2a9e91afc3ef4cbbe4318/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/9809e215336e3d0a43b75052d386960c789fb5dd79d2a9e91afc3ef4cbbe4318/hostname",
+        "HostsPath": "/var/lib/docker/containers/9809e215336e3d0a43b75052d386960c789fb5dd79d2a9e91afc3ef4cbbe4318/hosts",
+        "LogPath": "/var/lib/docker/containers/9809e215336e3d0a43b75052d386960c789fb5dd79d2a9e91afc3ef4cbbe4318/9809e215336e3d0a43b75052d386960c789fb5dd79d2a9e91afc3ef4cbbe4318-json.log",
+        "Name": "/runtipi",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/opt/runtipi/cache:/cache:rw",
+                "/etc/timezone:/etc/timezone:ro",
+                "/opt/runtipi/repos:/data/repos:rw",
+                "/opt/runtipi/traefik:/data/traefik:rw",
+                "/opt/runtipi/app-data:/app-data:rw",
+                "/opt/runtipi/.env:/data/.env:rw",
+                "/var/run/docker.sock:/var/run/docker.sock:ro",
+                "/opt/runtipi/state:/data/state:rw",
+                "/opt/runtipi/user-config:/data/user-config:rw",
+                "/opt/runtipi/docker-compose.yml:/data/docker-compose.yml:rw",
+                "/opt/runtipi/media:/data/media:rw",
+                "/opt/runtipi/apps:/data/apps:rw",
+                "/opt/runtipi/logs:/data/logs:rw",
+                "/proc:/host/proc:rw",
+                "/etc/localtime:/etc/localtime:ro",
+                "/opt/runtipi/backups:/data/backups:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "runtipi_tipi_main_network",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/app-data",
+                "Destination": "/app-data",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/media",
+                "Destination": "/data/media",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/proc",
+                "Destination": "/host/proc",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/etc/timezone",
+                "Destination": "/etc/timezone",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/repos",
+                "Destination": "/data/repos",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/.env",
+                "Destination": "/data/.env",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/var/run/docker.sock",
+                "Destination": "/var/run/docker.sock",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/traefik",
+                "Destination": "/data/traefik",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/user-config",
+                "Destination": "/data/user-config",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/etc/localtime",
+                "Destination": "/etc/localtime",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/backups",
+                "Destination": "/data/backups",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/cache",
+                "Destination": "/cache",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/state",
+                "Destination": "/data/state",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/docker-compose.yml",
+                "Destination": "/data/docker-compose.yml",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/apps",
+                "Destination": "/data/apps",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/opt/runtipi/logs",
+                "Destination": "/data/logs",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "9809e215336e",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "3000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "LOG_LEVEL=debug",
+                "TIPI_VERSION=v4.6.5",
+                "RABBITMQ_USERNAME=tipi",
+                "RUNTIPI_FORWARD_AUTH_URL=http://homelab.lan:3000/api/auth/traefik",
+                "LOCAL_DOMAIN=homelab.lan",
+                "RABBITMQ_PASSWORD=801dd8f59ffd5854a48e1fe70f3987ab",
+                "ROOT_FOLDER_HOST=/opt/runtipi",
+                "INTERNAL_IP=0.0.0.0",
+                "NODE_ENV=production",
+                "NGINX_PORT_SSL=443",
+                "POSTGRES_PORT=5432",
+                "POSTGRES_HOST=192.168.100.106",
+                "POSTGRES_DBNAME=tipi",
+                "NGINX_PORT=80",
+                "REDIS_PASSWORD=f232188da5fad07603162e6fb5589dcb",
+                "ARCHITECTURE=amd64",
+                "RABBITMQ_HOST=runtipi-queue",
+                "POSTGRES_USERNAME=tipi",
+                "RUNTIPI_APP_DATA_PATH=/opt/runtipi",
+                "REDIS_HOST=runtipi-redis",
+                "POSTGRES_PASSWORD=de99dab210bd657f588844adc4d0377b",
+                "DOMAIN=homelab.lan",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NODE_VERSION=22.21.1",
+                "YARN_VERSION=1.22.22"
+            ],
+            "Cmd": [
+                "node",
+                "./main.mjs"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "curl",
+                    "-f",
+                    "http://localhost:3000/api/health"
+                ],
+                "Interval": 5000000000,
+                "Timeout": 10000000000,
+                "StartPeriod": 10000000000,
+                "Retries": 20
+            },
+            "Image": "ghcr.io/runtipi/runtipi:v4.6.5",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "d33a2983bb336a756a436d65593dc9b5e4c7bc0eb4944dc285731bda6b52fb9b",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "runtipi-db:service_healthy:false,runtipi-queue:service_started:false",
+                "com.docker.compose.image": "sha256:db0d1b187b7b148c9a9bfddf4f3d9f51aa12630f120594b309e1579280b9589c",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "runtipi",
+                "com.docker.compose.project.config_files": "/opt/runtipi/docker-compose.yml",
+                "com.docker.compose.project.environment_file": "/opt/runtipi/.env",
+                "com.docker.compose.project.working_dir": "/opt/runtipi",
+                "com.docker.compose.service": "runtipi",
+                "com.docker.compose.version": "5.0.0",
+                "org.opencontainers.image.created": "2025-11-14T06:58:38.453Z",
+                "org.opencontainers.image.description": "Runtipi is a homeserver for everyone! One command setup, one click installs for your favorites self-hosted apps. ✨",
+                "org.opencontainers.image.licenses": "GPL-3.0",
+                "org.opencontainers.image.revision": "4ddb1f2544a66837af49be2d3bb1228f12e10e51",
+                "org.opencontainers.image.source": "https://github.com/runtipi/runtipi",
+                "org.opencontainers.image.title": "runtipi",
+                "org.opencontainers.image.url": "https://github.com/runtipi/runtipi",
+                "org.opencontainers.image.version": "v4.6.5",
+                "traefik.enable": "true",
+                "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme": "https",
+                "traefik.http.middlewares.runtipi.forwardauth.address": "http://homelab.lan:3000/api/auth/traefik",
+                "traefik.http.routers.dashboard-insecure.entrypoints": "web",
+                "traefik.http.routers.dashboard-insecure.middlewares": "redirect-to-https",
+                "traefik.http.routers.dashboard-insecure.rule": "Host(`homelab.lan`) && PathPrefix(`/`)",
+                "traefik.http.routers.dashboard-insecure.service": "dashboard",
+                "traefik.http.routers.dashboard-local-insecure.entrypoints": "web",
+                "traefik.http.routers.dashboard-local-insecure.middlewares": "redirect-to-https",
+                "traefik.http.routers.dashboard-local-insecure.rule": "Host(`homelab.lan`)",
+                "traefik.http.routers.dashboard-local-insecure.service": "dashboard",
+                "traefik.http.routers.dashboard-local.entrypoints": "websecure",
+                "traefik.http.routers.dashboard-local.rule": "Host(`homelab.lan`)",
+                "traefik.http.routers.dashboard-local.service": "dashboard",
+                "traefik.http.routers.dashboard-local.tls": "true",
+                "traefik.http.routers.dashboard-secure.entrypoints": "websecure",
+                "traefik.http.routers.dashboard-secure.rule": "Host(`homelab.lan`) && PathPrefix(`/`)",
+                "traefik.http.routers.dashboard-secure.service": "dashboard",
+                "traefik.http.routers.dashboard-secure.tls.certresolver": "myresolver",
+                "traefik.http.routers.dashboard.entrypoints": "web",
+                "traefik.http.routers.dashboard.rule": "PathPrefix(\"/\")",
+                "traefik.http.routers.dashboard.service": "dashboard",
+                "traefik.http.services.dashboard.loadbalancer.server.port": "3000"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "5eefd986df604045ff79c704e1f7e1d7791091b50a6c6e148e2658ff2aed79df",
+            "SandboxKey": "/var/run/docker/netns/5eefd986df60",
+            "Ports": {
+                "3000/tcp": null
+            },
+            "Networks": {
+                "runtipi_tipi_main_network": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "runtipi",
+                        "runtipi"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "375fafe267b24b0e7348af87c8325f5deddf432a17709fb11e61d792f288956a",
+                    "EndpointID": "0896090dce82c86a50d522c277e0435576e900d957072929217b2b61667d2e7f",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.7",
+                    "MacAddress": "82:51:d8:c8:0d:3c",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "runtipi",
+                        "9809e215336e"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:fff87e6cb6019ba6c240e628a10b184e2f937990dde87f0ac3baa17bef66c985",
+            "size": 3154,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

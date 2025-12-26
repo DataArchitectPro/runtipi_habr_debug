@@ -1,0 +1,233 @@
+name: runtipi
+services:
+  runtipi:
+    container_name: runtipi
+    depends_on:
+      runtipi-db:
+        condition: service_healthy
+        required: true
+      runtipi-queue:
+        condition: service_started
+        required: true
+    environment:
+      ADVANCED_SETTINGS: "true"
+      ALLOW_AUTO_THEMES: "true"
+      ALLOW_ERROR_MONITORING: "false"
+      APPS_REPO_ID: 29ca930bfdaffa1dfabf5726336380ede7066bc53297e3c0c868b27c97282903
+      APPS_REPO_URL: https://github.com/runtipi/runtipi-appstore
+      ARCHITECTURE: amd64
+      DEMO_MODE: "false"
+      DNS_IP: 9.9.9.9
+      DOMAIN: homelab.lan
+      EXPERIMENTAL_INSECURE_COOKIE: "false"
+      GUEST_DASHBOARD: "false"
+      INTERNAL_IP: 0.0.0.0
+      JWT_SECRET: 0def46defbc7a82952c3540dab47907cfaa359f1548a679f705e44c7d08d6110
+      LOCAL_DOMAIN: homelab.lan
+      LOG_LEVEL: info
+      MAX_BACKUPS: "0"
+      NGINX_PORT: "80"
+      NGINX_PORT_SSL: "443"
+      NODE_ENV: production
+      PERSIST_TRAEFIK_CONFIG: "false"
+      POSTGRES_DBNAME: tipi
+      POSTGRES_HOST: runtipi-db
+      POSTGRES_PASSWORD: de99dab210bd657f588844adc4d0377b
+      POSTGRES_PORT: "5432"
+      POSTGRES_USERNAME: tipi
+      QUEUE_TIMEOUT_IN_MINUTES: "5"
+      RABBITMQ_HOST: runtipi-queue
+      RABBITMQ_PASSWORD: 801dd8f59ffd5854a48e1fe70f3987ab
+      RABBITMQ_USERNAME: tipi
+      REDIS_HOST: runtipi-redis
+      REDIS_PASSWORD: f232188da5fad07603162e6fb5589dcb
+      ROOT_FOLDER_HOST: /opt/runtipi
+      RUNTIPI_APP_DATA_PATH: /opt/runtipi
+      RUNTIPI_FORWARD_AUTH_URL: http://homelab.lan:3000/api/auth/traefik
+      THEME_BASE: gray
+      THEME_COLOR: blue
+      TIPI_VERSION: v4.6.5
+      TZ: Asia/Yekaterinburg
+    healthcheck:
+      test:
+        - CMD
+        - curl
+        - -f
+        - http://localhost:3000/api/health
+      timeout: 10s
+      interval: 5s
+      retries: 20
+      start_period: 10s
+    image: 'ghcr.io/runtipi/runtipi:'
+    labels:
+      traefik.enable: "true"
+      traefik.http.middlewares.redirect-to-https.redirectscheme.scheme: https
+      traefik.http.middlewares.runtipi.forwardauth.address: http://runtipi:3000/api/auth/traefik
+      traefik.http.routers.dashboard-insecure.entrypoints: web
+      traefik.http.routers.dashboard-insecure.middlewares: redirect-to-https
+      traefik.http.routers.dashboard-insecure.rule: Host(``) && PathPrefix(`/`)
+      traefik.http.routers.dashboard-insecure.service: dashboard
+      traefik.http.routers.dashboard-local-insecure.entrypoints: web
+      traefik.http.routers.dashboard-local-insecure.middlewares: redirect-to-https
+      traefik.http.routers.dashboard-local-insecure.rule: Host(``)
+      traefik.http.routers.dashboard-local-insecure.service: dashboard
+      traefik.http.routers.dashboard-local.entrypoints: websecure
+      traefik.http.routers.dashboard-local.rule: Host(``)
+      traefik.http.routers.dashboard-local.service: dashboard
+      traefik.http.routers.dashboard-local.tls: "true"
+      traefik.http.routers.dashboard-secure.entrypoints: websecure
+      traefik.http.routers.dashboard-secure.rule: Host(``) && PathPrefix(`/`)
+      traefik.http.routers.dashboard-secure.service: dashboard
+      traefik.http.routers.dashboard-secure.tls.certresolver: myresolver
+      traefik.http.routers.dashboard.entrypoints: web
+      traefik.http.routers.dashboard.rule: PathPrefix("/")
+      traefik.http.routers.dashboard.service: dashboard
+      traefik.http.services.dashboard.loadbalancer.server.port: "3000"
+    networks:
+      tipi_main_network: null
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /opt/runtipi/media
+        target: /data/media
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/state
+        target: /data/state
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/repos
+        target: /data/repos
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/apps
+        target: /data/apps
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/logs
+        target: /data/logs
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/traefik
+        target: /data/traefik
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/user-config
+        target: /data/user-config
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/app-data
+        target: /app-data
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/backups
+        target: /data/backups
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/.env
+        target: /data/.env
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/cache
+        target: /cache
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/docker-compose.yml
+        target: /data/docker-compose.yml
+        bind: {}
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+        read_only: true
+        bind: {}
+      - type: bind
+        source: /proc
+        target: /host/proc
+        bind: {}
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
+        read_only: true
+        bind: {}
+      - type: bind
+        source: /etc/timezone
+        target: /etc/timezone
+        read_only: true
+        bind: {}
+  runtipi-db:
+    container_name: runtipi-db
+    environment:
+      POSTGRES_DB: tipi
+      POSTGRES_PASSWORD: de99dab210bd657f588844adc4d0377b
+      POSTGRES_USER: tipi
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -d tipi -U tipi
+      timeout: 10s
+      interval: 5s
+      retries: 20
+      start_period: 5s
+    image: postgres:14
+    networks:
+      tipi_main_network: null
+    restart: unless-stopped
+    stop_grace_period: 1m0s
+    volumes:
+      - type: bind
+        source: /opt/runtipi/data/postgres
+        target: /var/lib/postgresql/data
+        bind: {}
+  runtipi-queue:
+    container_name: runtipi-queue
+    environment:
+      RABBITMQ_DEFAULT_PASS: ""
+      RABBITMQ_DEFAULT_USER: tipi
+    image: rabbitmq:4-alpine
+    networks:
+      tipi_main_network: null
+    ports:
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+    restart: unless-stopped
+  runtipi-reverse-proxy:
+    command:
+      - --providers.docker
+    container_name: runtipi-reverse-proxy
+    depends_on:
+      runtipi:
+        condition: service_healthy
+        required: true
+    image: traefik:v3.6.1
+    networks:
+      tipi_main_network: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "80"
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        published: "443"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /opt/runtipi/traefik
+        target: /etc/traefik
+        bind: {}
+      - type: bind
+        source: /opt/runtipi/traefik/shared
+        target: /shared
+        bind: {}
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+        read_only: true
+        bind: {}
+networks:
+  tipi_main_network:
+    name: runtipi_tipi_main_network
+    driver: bridge

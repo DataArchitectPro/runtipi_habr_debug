@@ -1,0 +1,96 @@
+root@homelab:/opt# cd /opt/runtipi
+root@homelab:/opt/runtipi# docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Networks}}' | sort
+dockge                                 dockerhub.timeweb.cloud/louislam/dockge:latest          Up 12 hours (healthy)    runtipi_tipi_main_network
+filebrowser                            dockerhub.timeweb.cloud/filebrowser/filebrowser:s6      Up 12 hours (healthy)    runtipi_tipi_main_network
+gitea_migrated-gitea-1                 gitea/gitea:1.25.3                                      Up 12 hours              gitea_migrated_network,runtipi_tipi_main_network
+glance                                 dockerhub.timeweb.cloud/nicolargo/glances:latest-full   Up 12 hours              glances_default,runtipi_tipi_main_network
+NAMES                                  IMAGE                                                   STATUS                   NETWORKS
+pihole-pihole-1                        pihole/pihole:2025.11.1                                 Up 12 hours (healthy)    runtipi_tipi_main_network,pihole_migrated_network
+runtipi-db                             postgres:14                                             Up 6 minutes (healthy)   runtipi_tipi_main_network
+runtipi                                ghcr.io/runtipi/runtipi:v4.6.5                          Up 6 minutes (healthy)   runtipi_tipi_main_network
+runtipi-queue                          rabbitmq:4-alpine                                       Up 6 minutes             runtipi_tipi_main_network
+runtipi-reverse-proxy                  traefik:v3.6.1                                          Up 6 minutes             runtipi_tipi_main_network
+samba                                  dockerhub.timeweb.cloud/dperson/samba:latest            Up 12 hours (healthy)    samba_default
+samohosting-dashboard                  dockerhub.timeweb.cloud/lissy93/dashy:latest            Up 12 hours (healthy)    runtipi_tipi_main_network
+searxng_migrated-searxng-1             searxng/searxng:latest                                  Up 12 hours              runtipi_tipi_main_network,searxng_migrated_network
+trilium_migrated-trilium-1             ghcr.io/triliumnext/trilium:v0.100.0                    Up 12 hours (healthy)    runtipi_tipi_main_network,trilium_migrated_network
+vaultwarden_migrated-vaultwarden-1     vaultwarden/server:1.34.3                               Up 12 hours (healthy)    runtipi_tipi_main_network,vaultwarden_migrated_network
+watchyourlan_migrated-watchyourlan-1   aceberg/watchyourlan:2.1.4                              Up 12 hours              host
+root@homelab:/opt/runtipi# docker volume ls | egrep -i 'runtipi|postgres|db' || true
+local     27e3a0ac638ab8eeddba32020e8f9f2e20dc2fcaf7bf3117f034a98f48c4aab9
+local     ae79b64687b71420bab5f6700b40505f6fd052b4b03dc351ea8da9db72e4344c
+root@homelab:/opt/runtipi# docker ps -a --format '{{.Names}}' | grep -E '^runtipi-db$' && echo "!!! runtipi-db есть" || echo "OK: runtipi-db отсутствует"
+docker ps -a --format '{{.Names}}' | grep -E '^runtipi-db$' && echo "docker volume ls | egrep -i 'runtipi|postgres|db' || true! runtipi-db есть" || echo "OK: runtipi-db отсутствует"
+runtipi-db
+docker volume ls | egrep -i 'runtipi|postgres|db' || true! runtipi-db есть
+root@homelab:/opt/runtipi# docker exec -it runtipi sh -lc 'env | sort | egrep "^(POSTGRES_|DATABASE_URL|LOG_LEVEL)=" || true'
+LOG_LEVEL=debug
+root@homelab:/opt/runtipi# docker exec -it runtipi sh -lc 'ls -la /opt/runtipi 2>/dev/null || true; ls -la / 2>/dev/null || true'
+total 84
+drwxr-xr-x    1 root     root          4096 Dec 27 00:29 .
+drwxr-xr-x    1 root     root          4096 Dec 27 00:29 ..
+-rwxr-xr-x    1 root     root             0 Dec 27 00:29 .dockerenv
+drwxr-xr-x    1 root     root          4096 Nov 14 11:59 app
+drwxrwxrwx    3 root     root          4096 Dec 15 18:26 app-data
+drwxr-xr-x    1 root     root          4096 Oct 29 19:16 bin
+drwxrwxrwx    2 root     root          4096 Dec 26 23:52 cache
+drwxr-xr-x   10 root     root          4096 Dec 27 00:29 data
+drwxr-xr-x    5 root     root           340 Dec 27 00:29 dev
+drwxr-xr-x    1 root     root          4096 Dec 27 00:29 etc
+drwxr-xr-x    1 root     root          4096 Oct 29 19:16 home
+drwxr-xr-x    3 root     root          4096 Dec 27 00:29 host
+drwxr-xr-x    1 root     root          4096 Oct  8 14:29 lib
+drwxr-xr-x    5 root     root          4096 Oct  8 14:29 media
+drwxr-xr-x    2 root     root          4096 Oct  8 14:29 mnt
+drwxr-xr-x    1 root     root          4096 Oct 29 19:16 opt
+dr-xr-xr-x  429 nobody   nobody           0 Dec 27 00:29 proc
+drwx------    1 root     root          4096 Dec 27 00:30 root
+drwxr-xr-x    1 root     root          4096 Dec 27 00:29 run
+drwxr-xr-x    2 root     root          4096 Oct  8 14:29 sbin
+drwxr-xr-x    2 root     root          4096 Oct  8 14:29 srv
+dr-xr-xr-x   13 nobody   nobody           0 Dec 27 00:29 sys
+drwxrwxrwt    1 root     root          4096 Oct 29 23:33 tmp
+drwxr-xr-x    1 root     root          4096 Oct 29 23:33 usr
+drwxr-xr-x   11 root     root          4096 Oct  8 14:29 var
+root@homelab:/opt/runtipi# cd /opt/runtipi
+root@homelab:/opt/runtipi# docker compose config > /tmp/runtipi_effective_compose.yml
+root@homelab:/opt/runtipi# grep -nE 'runtipi-db|POSTGRES_|DATABASE_URL|postgres:' /tmp/runtipi_effective_compose.yml | sed -n '1,200p'
+6:      runtipi-db:
+33:      POSTGRES_DBNAME: tipi
+34:      POSTGRES_HOST: runtipi-db
+35:      POSTGRES_PASSWORD: de99dab210bd657f588844adc4d0377b
+36:      POSTGRES_PORT: "5432"
+37:      POSTGRES_USERNAME: tipi
+157:  runtipi-db:
+158:    container_name: runtipi-db
+160:      POSTGRES_DB: tipi
+161:      POSTGRES_PASSWORD: de99dab210bd657f588844adc4d0377b
+162:      POSTGRES_USER: tipi
+171:    image: postgres:14
+root@homelab:/opt/runtipi# sudo iptables -I INPUT -p tcp -s 192.168.100.X --dport 5432 -j REJECT
+iptables v1.8.9 (nf_tables): host/network `192.168.100.X' not found
+Try `iptables -h' or 'iptables --help' for more information.
+root@homelab:/opt/runtipi# docker logs --tail=200 -f runtipi
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+00:29:18 - info >       Generating system env file
+00:29:19 - warn >       Queue connection not ready, waiting for initialization...
+00:29:19 - warn >       Queue connection not ready, waiting for initialization...
+00:29:19 - warn >       Queue connection not ready, waiting for initialization...
+00:29:19 - info >       Connected to the queue
+00:29:20 - info >       EventPublisher: Exchange 'app-events-queue' asserted.
+00:29:20 - info >       EventPublisher: Exchange 'repo-queue' asserted.
+00:29:20 - info >       EventPublisher: Exchange 'system-events-queue' asserted.
+00:29:20 - info >       Log level info
+00:29:20 - info >       Logs flushed
+00:29:20 - info >       Running version: v4.6.5
+00:29:30 - info >       Creating traefik folders
+00:29:30 - info >       Copying traefik files
+00:29:30 - info >       Creating base folders
+00:29:30 - info >       Creating media folders
+00:29:30 - info >       TLS certificate for homelab.lan already exists
+^Croot@homelab:/opt/runtipisudo iptables -D INPUT -p tcp -s 192.168.100.X --dport 5432 -j REJECTCT
+iptables v1.8.9 (nf_tables): host/network `192.168.100.X' not found
+Try `iptables -h' or 'iptables --help' for more information.
+root@homelab:/opt/runtipi# sudo tcpdump -ni any tcp port 5432
+sudo: tcpdump: command not found

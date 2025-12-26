@@ -1,0 +1,18 @@
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+00:29:18 - [32minfo[39m > 	Generating system env file
+00:29:19 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+00:29:19 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+00:29:19 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+00:29:19 - [32minfo[39m > 	Connected to the queue
+00:29:20 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+00:29:20 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+00:29:20 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+00:29:20 - [32minfo[39m > 	Log level info
+00:29:20 - [32minfo[39m > 	Logs flushed
+00:29:20 - [32minfo[39m > 	Running version: v4.6.5
+00:29:30 - [32minfo[39m > 	Creating traefik folders
+00:29:30 - [32minfo[39m > 	Copying traefik files
+00:29:30 - [32minfo[39m > 	Creating base folders
+00:29:30 - [32minfo[39m > 	Creating media folders
+00:29:30 - [32minfo[39m > 	TLS certificate for homelab.lan already exists

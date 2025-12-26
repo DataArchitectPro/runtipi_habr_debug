@@ -1,0 +1,15 @@
+--- "00_\320\230\321\201\321\205\320\276\320\264\320\275\320\276\320\265_\321\201\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265/\320\272\320\276\320\275\321\204\320\270\320\263\320\270/docker-compose.yml"	2025-12-26 23:50:09.958815554 +0500
++++ "01_\320\237\320\276\320\277\321\213\321\202\320\272\320\260_\320\262\320\275\320\265\321\210\320\275\320\270\320\271_PostgreSQL/\320\272\320\276\320\275\321\204\320\270\320\263\320\270/docker-compose.yml"	2025-12-27 00:30:54.331416999 +0500
+@@ -98,11 +98,7 @@
+       # ---- Dashboard ----- #
+       traefik.http.services.dashboard.loadbalancer.server.port: 3000
+       # Local ip
+-      #traefik.http.routers.dashboard.rule: PathPrefix("/")
+-      #traefik.http.routers.dashboard.service: dashboard
+-      #traefik.http.routers.dashboard.entrypoints: web
+-      # Local ip (только когда заходят по IP, а не по домену)
+-      traefik.http.routers.dashboard.rule: HostRegexp(`{ip:[0-9.]+}`) && PathPrefix(`/`)
++      traefik.http.routers.dashboard.rule: PathPrefix("/")
+       traefik.http.routers.dashboard.service: dashboard
+       traefik.http.routers.dashboard.entrypoints: web
+       # Websecure

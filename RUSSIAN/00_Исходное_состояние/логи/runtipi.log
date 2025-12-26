@@ -1,0 +1,936 @@
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+16:57:01 - [32minfo[39m > 	Generating system env file
+16:57:01 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+16:57:01 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+16:57:01 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+16:57:01 - [32minfo[39m > 	Connected to the queue
+16:57:02 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+16:57:02 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+16:57:02 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+16:57:02 - [32minfo[39m > 	Log level info
+16:57:02 - [32minfo[39m > 	Logs flushed
+16:57:02 - [32minfo[39m > 	Running version: v4.6.5
+16:57:04 - [32minfo[39m > 	Creating traefik folders
+16:57:04 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+16:57:04 - [32minfo[39m > 	Creating base folders
+16:57:04 - [32minfo[39m > 	Creating media folders
+16:57:04 - [32minfo[39m > 	TLS certificate for tipi.samohosting.lan already exists
+16:59:05 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+16:59:05 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+[31m[Nest] 1  - [39m12/19/2025, 4:59:06 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+16:59:07 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.6:5672 Error: connect ECONNREFUSED 172.18.0.6:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+16:59:07 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/19/2025, 4:59:11 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+16:59:11 - [32minfo[39m > 	Connected to the queue
+16:59:13 - [32minfo[39m > 	Connected to the queue
+16:59:14 - [32minfo[39m > 	Connected to the queue
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+16:59:17 - [32minfo[39m > 	Generating system env file
+16:59:17 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+16:59:17 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+16:59:17 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+16:59:17 - [32minfo[39m > 	Connected to the queue
+16:59:18 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+16:59:18 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+16:59:18 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+16:59:18 - [32minfo[39m > 	Log level info
+16:59:18 - [32minfo[39m > 	Logs flushed
+16:59:18 - [32minfo[39m > 	Running version: v4.6.5
+16:59:20 - [32minfo[39m > 	Creating traefik folders
+16:59:20 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+16:59:20 - [32minfo[39m > 	Creating base folders
+16:59:20 - [32minfo[39m > 	Creating media folders
+16:59:20 - [32minfo[39m > 	TLS certificate for tipi.samohosting.lan already exists
+17:28:06 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+17:28:06 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+[31m[Nest] 1  - [39m12/19/2025, 5:28:06 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+17:28:08 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.6:5672 Error: connect ECONNREFUSED 172.18.0.6:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+17:28:08 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+17:28:11 - [32minfo[39m > 	Connected to the queue
+[31m[Nest] 1  - [39m12/19/2025, 5:28:12 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+17:28:12 - [32minfo[39m > 	Connected to the queue
+17:28:12 - [32minfo[39m > 	Connected to the queue
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+17:28:18 - [32minfo[39m > 	Generating system env file
+17:28:18 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+17:28:18 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+17:28:18 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+17:28:18 - [32minfo[39m > 	Connected to the queue
+17:28:19 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+17:28:19 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+17:28:19 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+17:28:19 - [32minfo[39m > 	Log level info
+17:28:19 - [32minfo[39m > 	Logs flushed
+17:28:19 - [32minfo[39m > 	Running version: v4.6.5
+17:28:20 - [32minfo[39m > 	Creating traefik folders
+17:28:20 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+17:28:20 - [32minfo[39m > 	Creating base folders
+17:28:20 - [32minfo[39m > 	Creating media folders
+17:28:20 - [32minfo[39m > 	TLS certificate for tipi.samohosting.lan already exists
+00:44:05 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+00:44:05 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+[31m[Nest] 1  - [39m12/20/2025, 12:44:08 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+00:44:12 - [31merror[39m > 	Queue connection error getaddrinfo EAI_AGAIN runtipi-queue Error: getaddrinfo EAI_AGAIN runtipi-queue
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+00:44:12 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/20/2025, 12:44:13 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+00:44:31 - [32minfo[39m > 	Generating system env file
+00:44:32 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+00:44:32 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+00:44:32 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+00:44:32 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.11:5672 Error: connect ECONNREFUSED 172.18.0.11:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+00:44:32 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+00:44:34 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.11:5672 Error: connect ECONNREFUSED 172.18.0.11:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+00:44:34 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+00:44:35 - [32minfo[39m > 	Connected to the queue
+00:44:36 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+00:44:36 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+00:44:36 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+00:44:36 - [32minfo[39m > 	Log level info
+00:44:36 - [32minfo[39m > 	Logs flushed
+00:44:36 - [32minfo[39m > 	Running version: v4.6.5
+00:44:37 - [32minfo[39m > 	Connected to the queue
+00:44:38 - [32minfo[39m > 	Creating traefik folders
+00:44:38 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+00:44:38 - [32minfo[39m > 	Creating base folders
+00:44:38 - [32minfo[39m > 	Creating media folders
+00:44:38 - [32minfo[39m > 	TLS certificate for tipi.samohosting.lan already exists
+00:44:38 - [32minfo[39m > 	Connected to the queue
+11:13:14 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:13:14 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+11:13:14 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:13:14 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+11:13:14 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:13:14 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 3/5)
+[31m[Nest] 1  - [39m12/20/2025, 11:13:18 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+11:13:21 - [31merror[39m > 	Queue connection error getaddrinfo EAI_AGAIN runtipi-queue Error: getaddrinfo EAI_AGAIN runtipi-queue
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+11:13:21 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 4/5)
+[31m[Nest] 1  - [39m12/20/2025, 11:13:23 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+11:13:40 - [32minfo[39m > 	Generating system env file
+11:13:41 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:13:41 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:13:41 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:13:41 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.3:5672 Error: connect ECONNREFUSED 172.18.0.3:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+11:13:41 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+11:13:43 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.3:5672 Error: connect ECONNREFUSED 172.18.0.3:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+11:13:43 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+11:13:44 - [32minfo[39m > 	Connected to the queue
+11:13:44 - [32minfo[39m > 	Connected to the queue
+11:13:45 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+11:13:45 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+11:13:45 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+11:13:45 - [32minfo[39m > 	Log level info
+11:13:45 - [32minfo[39m > 	Logs flushed
+11:13:45 - [32minfo[39m > 	Running version: v4.6.5
+11:13:47 - [32minfo[39m > 	Creating traefik folders
+11:13:47 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+11:13:47 - [32minfo[39m > 	Creating base folders
+11:13:47 - [32minfo[39m > 	Creating media folders
+11:13:47 - [32minfo[39m > 	Removing file cert.pem
+11:13:47 - [32minfo[39m > 	Removing file key.pem
+11:13:47 - [32minfo[39m > 	Generating TLS certificate for tipi.samohosting.lan
+11:13:47 - [32minfo[39m > 	Connected to the queue
+11:13:48 - [32minfo[39m > 	Writing txt file for tipi.samohosting.lan
+11:15:04 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:15:04 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+11:15:04 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:15:04 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+11:15:04 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:15:04 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 3/5)
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":164,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-1951470644,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.3},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266565,"external":20887132,"heapTotal":114900992,"heapUsed":104897088,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":164,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-1951470644,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.35},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266589,"external":20887196,"heapTotal":114900992,"heapUsed":105015776,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":164,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-1951470644,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.35},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266589,"external":20887196,"heapTotal":114900992,"heapUsed":105089736,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":164,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-1951470644,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.35},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266589,"external":20887196,"heapTotal":114900992,"heapUsed":105162096,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":164,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-1951470644,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.35},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266589,"external":20887196,"heapTotal":114900992,"heapUsed":105233408,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":164,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-1951470644,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.37},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266589,"external":20887196,"heapTotal":114900992,"heapUsed":105304824,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":164,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-1951470644,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.37},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266589,"external":20887196,"heapTotal":114900992,"heapUsed":105376256,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":164,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-1951470644,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.37},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266589,"external":20887196,"heapTotal":114900992,"heapUsed":105447432,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":165,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-360903532,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.37},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266706,"external":20887313,"heapTotal":114900992,"heapUsed":105542984,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":165,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-360903532,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.37},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266706,"external":20887313,"heapTotal":114900992,"heapUsed":105632800,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":165,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-360903532,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.37},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266706,"external":20887313,"heapTotal":114900992,"heapUsed":105704616,"rss":196431872},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":165,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-360903532,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.37},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266706,"external":20887313,"heapTotal":114900992,"heapUsed":105775968,"rss":196562944},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":165,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-360903532,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.38},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266706,"external":20887313,"heapTotal":114900992,"heapUsed":105850704,"rss":196939776},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":165,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-360903532,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.38},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266706,"external":20887313,"heapTotal":114900992,"heapUsed":105921920,"rss":197070848},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":165,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-360903532,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.38},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266706,"external":20887313,"heapTotal":114900992,"heapUsed":105992784,"rss":197332992},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:04 GMT+0500 (Yekaterinburg Standard Time)","error":{"client":{"_connected":true,"_connecting":false,"_connectionCallback":null,"_connectionError":false,"_connectionTimeoutMillis":0,"_ended":false,"_ending":true,"_events":{},"_eventsCount":1,"_poolUseCount":1,"_queryable":false,"_types":{"_types":{"arrayParser":{},"builtins":{"ABSTIME":702,"ACLITEM":1033,"BIT":1560,"BOOL":16,"BPCHAR":1042,"BYTEA":17,"CHAR":18,"CID":29,"CIDR":650,"CIRCLE":718,"DATE":1082,"FLOAT4":700,"FLOAT8":701,"GTSVECTOR":3642,"INET":869,"INT2":21,"INT4":23,"INT8":20,"INTERVAL":1186,"JSON":114,"JSONB":3802,"MACADDR":829,"MACADDR8":774,"MONEY":790,"NUMERIC":1700,"OID":26,"PATH":602,"PG_DEPENDENCIES":3402,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_NODE_TREE":194,"POLYGON":604,"REFCURSOR":1790,"REGCLASS":2205,"REGCONFIG":3734,"REGDICTIONARY":3769,"REGNAMESPACE":4089,"REGOPER":2203,"REGOPERATOR":2204,"REGPROC":24,"REGPROCEDURE":2202,"REGROLE":4096,"REGTYPE":2206,"RELTIME":703,"SMGR":210,"TEXT":25,"TID":27,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"TIMETZ":1266,"TINTERVAL":704,"TSQUERY":3615,"TSVECTOR":3614,"TXID_SNAPSHOT":2970,"UUID":2950,"VARBIT":1562,"VARCHAR":1043,"XID":28,"XML":142}},"binary":{},"text":{}},"activeQuery":null,"binary":false,"connection":{"_connecting":true,"_emitMessage":false,"_ending":true,"_events":{"end":[null,null]},"_eventsCount":23,"_keepAlive":false,"_keepAliveInitialDelayMillis":0,"lastBuffer":false,"parsedStatements":{},"ssl":false,"stream":{"_closeAfterHandlingError":false,"_events":{"end":[null,null]},"_eventsCount":4,"_hadError":false,"_host":"runtipi-db","_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":65536,"length":0,"pipes":[]},"_server":null,"_sockname":null,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":65536,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"connecting":false,"server":null}},"connectionParameters":{"binary":false,"client_encoding":"","connect_timeout":0,"database":"tipi","host":"runtipi-db","idle_in_transaction_session_timeout":false,"isDomainSocket":false,"lock_timeout":false,"port":5432,"query_timeout":false,"ssl":false,"statement_timeout":false,"user":"tipi"},"database":"tipi","enableChannelBinding":false,"hasExecuted":true,"host":"runtipi-db","port":5432,"processID":165,"queryQueue":[],"readyForQuery":true,"saslSession":null,"secretKey":-360903532,"ssl":false,"user":"tipi"},"code":"57P01","file":"postgres.c","length":116,"line":"3197","name":"error","routine":"ProcessInterrupts","severity":"FATAL"},"exception":true,"level":"error","message":"uncaughtException: terminating connection due to administrator command\nerror: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407397.38},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":266706,"external":20887313,"heapTotal":114900992,"heapUsed":106063648,"rss":197185536},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"error: terminating connection due to administrator command\n    at cl4.parseErrorMessage (file:///app/main.mjs:665:51288)\n    at cl4.handlePacket (file:///app/main.mjs:665:47924)\n    at cl4.parse (file:///app/main.mjs:665:46550)\n    at Socket.<anonymous> (file:///app/main.mjs:665:51986)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)","trace":[{"column":51288,"file":"file:///app/main.mjs","function":"cl4.parseErrorMessage","line":665,"method":"parseErrorMessage","native":false},{"column":47924,"file":"file:///app/main.mjs","function":"cl4.handlePacket","line":665,"method":"handlePacket","native":false},{"column":46550,"file":"file:///app/main.mjs","function":"cl4.parse","line":665,"method":"parse","native":false},{"column":51986,"file":"file:///app/main.mjs","function":null,"line":665,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":561,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":512,"method":null,"native":false},{"column":5,"file":"node:internal/streams/readable","function":"Readable.push","line":392,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":189,"method":"onStreamRead","native":false}]}
+[31m[Nest] 1  - [39m12/20/2025, 11:15:04 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+11:15:06 - [31merror[39m > 	Error in consumer callback: channel is closed AMQPChannelError: channel is closed
+    at Ge4.basicPublish (file:///app/main.mjs:667:25518)
+    at file:///app/main.mjs:667:36656
+    at file:///app/main.mjs:1513:49677
+    at async Ve4._handler (file:///app/main.mjs:1513:40291)
+    at async Ve4._execHandler (file:///app/main.mjs:667:36810)
+{"date":"Sat Dec 20 2025 11:15:06 GMT+0500 (Yekaterinburg Standard Time)","error":{"code":"CH_CLOSE","name":"AMQPChannelError"},"exception":true,"level":"error","message":"uncaughtException: failed to ack/nack message; channel is closed\nAMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407399.01},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":26328412,"external":46948955,"heapTotal":153542656,"heapUsed":116623552,"rss":265285632},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"AMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","trace":[{"column":25148,"file":"file:///app/main.mjs","function":"Ge4._invokeNowait","line":667,"method":"_invokeNowait","native":false},{"column":27263,"file":"file:///app/main.mjs","function":"Ge4.basicNack","line":667,"method":"basicNack","native":false},{"column":36890,"file":"file:///app/main.mjs","function":"Ve4._execHandler","line":667,"method":"_execHandler","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:06 GMT+0500 (Yekaterinburg Standard Time)","error":{"code":"CH_CLOSE","name":"AMQPChannelError"},"exception":true,"level":"error","message":"uncaughtException: failed to ack/nack message; channel is closed\nAMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407399.01},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":26328412,"external":46948955,"heapTotal":153542656,"heapUsed":116649528,"rss":265547776},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"AMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","trace":[{"column":25148,"file":"file:///app/main.mjs","function":"Ge4._invokeNowait","line":667,"method":"_invokeNowait","native":false},{"column":27263,"file":"file:///app/main.mjs","function":"Ge4.basicNack","line":667,"method":"basicNack","native":false},{"column":36890,"file":"file:///app/main.mjs","function":"Ve4._execHandler","line":667,"method":"_execHandler","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:06 GMT+0500 (Yekaterinburg Standard Time)","error":{"code":"CH_CLOSE","name":"AMQPChannelError"},"exception":true,"level":"error","message":"uncaughtException: failed to ack/nack message; channel is closed\nAMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407399.01},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":26328412,"external":46948955,"heapTotal":153542656,"heapUsed":116677096,"rss":265809920},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"AMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","trace":[{"column":25148,"file":"file:///app/main.mjs","function":"Ge4._invokeNowait","line":667,"method":"_invokeNowait","native":false},{"column":27263,"file":"file:///app/main.mjs","function":"Ge4.basicNack","line":667,"method":"basicNack","native":false},{"column":36890,"file":"file:///app/main.mjs","function":"Ve4._execHandler","line":667,"method":"_execHandler","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:06 GMT+0500 (Yekaterinburg Standard Time)","error":{"code":"CH_CLOSE","name":"AMQPChannelError"},"exception":true,"level":"error","message":"uncaughtException: failed to ack/nack message; channel is closed\nAMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407399.01},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":26328412,"external":46948955,"heapTotal":153542656,"heapUsed":116699656,"rss":265940992},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"AMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","trace":[{"column":25148,"file":"file:///app/main.mjs","function":"Ge4._invokeNowait","line":667,"method":"_invokeNowait","native":false},{"column":27263,"file":"file:///app/main.mjs","function":"Ge4.basicNack","line":667,"method":"basicNack","native":false},{"column":36890,"file":"file:///app/main.mjs","function":"Ve4._execHandler","line":667,"method":"_execHandler","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:06 GMT+0500 (Yekaterinburg Standard Time)","error":{"code":"CH_CLOSE","name":"AMQPChannelError"},"exception":true,"level":"error","message":"uncaughtException: failed to ack/nack message; channel is closed\nAMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407399.01},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":26328412,"external":46948955,"heapTotal":153542656,"heapUsed":116722216,"rss":266203136},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"AMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","trace":[{"column":25148,"file":"file:///app/main.mjs","function":"Ge4._invokeNowait","line":667,"method":"_invokeNowait","native":false},{"column":27263,"file":"file:///app/main.mjs","function":"Ge4.basicNack","line":667,"method":"basicNack","native":false},{"column":36890,"file":"file:///app/main.mjs","function":"Ve4._execHandler","line":667,"method":"_execHandler","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:06 GMT+0500 (Yekaterinburg Standard Time)","error":{"code":"CH_CLOSE","name":"AMQPChannelError"},"exception":true,"level":"error","message":"uncaughtException: failed to ack/nack message; channel is closed\nAMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407399.01},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":26328412,"external":46948955,"heapTotal":153542656,"heapUsed":116744776,"rss":266465280},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"AMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","trace":[{"column":25148,"file":"file:///app/main.mjs","function":"Ge4._invokeNowait","line":667,"method":"_invokeNowait","native":false},{"column":27263,"file":"file:///app/main.mjs","function":"Ge4.basicNack","line":667,"method":"basicNack","native":false},{"column":36890,"file":"file:///app/main.mjs","function":"Ve4._execHandler","line":667,"method":"_execHandler","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:06 GMT+0500 (Yekaterinburg Standard Time)","error":{"code":"CH_CLOSE","name":"AMQPChannelError"},"exception":true,"level":"error","message":"uncaughtException: failed to ack/nack message; channel is closed\nAMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407399.01},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":26328412,"external":46948955,"heapTotal":153542656,"heapUsed":116767336,"rss":266465280},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"AMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","trace":[{"column":25148,"file":"file:///app/main.mjs","function":"Ge4._invokeNowait","line":667,"method":"_invokeNowait","native":false},{"column":27263,"file":"file:///app/main.mjs","function":"Ge4.basicNack","line":667,"method":"basicNack","native":false},{"column":36890,"file":"file:///app/main.mjs","function":"Ve4._execHandler","line":667,"method":"_execHandler","native":false}]}
+{"date":"Sat Dec 20 2025 11:15:06 GMT+0500 (Yekaterinburg Standard Time)","error":{"code":"CH_CLOSE","name":"AMQPChannelError"},"exception":true,"level":"error","message":"uncaughtException: failed to ack/nack message; channel is closed\nAMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","os":{"loadavg":[0.95,0.68,0.41],"uptime":407399.01},"process":{"argv":["/usr/local/bin/node","/app/main.mjs"],"cwd":"/app","execPath":"/usr/local/bin/node","gid":0,"memoryUsage":{"arrayBuffers":26328412,"external":46948955,"heapTotal":153542656,"heapUsed":116789864,"rss":266596352},"pid":1,"uid":0,"version":"v22.21.1"},"stack":"AMQPChannelError: failed to ack/nack message; channel is closed\n    at Ge4._invokeNowait (file:///app/main.mjs:667:25148)\n    at Ge4.basicNack (file:///app/main.mjs:667:27263)\n    at Ve4._execHandler (file:///app/main.mjs:667:36890)","trace":[{"column":25148,"file":"file:///app/main.mjs","function":"Ge4._invokeNowait","line":667,"method":"_invokeNowait","native":false},{"column":27263,"file":"file:///app/main.mjs","function":"Ge4.basicNack","line":667,"method":"basicNack","native":false},{"column":36890,"file":"file:///app/main.mjs","function":"Ve4._execHandler","line":667,"method":"_execHandler","native":false}]}
+[31m[Nest] 1  - [39m12/20/2025, 11:15:09 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+11:15:11 - [31merror[39m > 	Queue connection error getaddrinfo EAI_AGAIN runtipi-queue Error: getaddrinfo EAI_AGAIN runtipi-queue
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+11:15:11 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 4/5)
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+11:15:30 - [32minfo[39m > 	Generating system env file
+11:15:31 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:15:31 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:15:31 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:15:31 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.8:5672 Error: connect ECONNREFUSED 172.18.0.8:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+11:15:31 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+11:15:33 - [32minfo[39m > 	Connected to the queue
+11:15:34 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+11:15:34 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+11:15:34 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+11:15:34 - [32minfo[39m > 	Log level info
+11:15:34 - [32minfo[39m > 	Logs flushed
+11:15:34 - [32minfo[39m > 	Running version: v4.6.5
+11:15:36 - [32minfo[39m > 	Connected to the queue
+11:15:36 - [32minfo[39m > 	Creating traefik folders
+11:15:36 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+11:15:36 - [32minfo[39m > 	Creating base folders
+11:15:36 - [32minfo[39m > 	Creating media folders
+11:15:36 - [32minfo[39m > 	TLS certificate for tipi.samohosting.lan already exists
+11:17:09 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:17:09 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+11:17:09 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:17:09 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/20/2025, 11:17:09 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+[31m[Nest] 1  - [39m12/20/2025, 11:17:14 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+11:17:35 - [32minfo[39m > 	Generating system env file
+11:17:36 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:17:36 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:17:36 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:17:36 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.7:5672 Error: connect ECONNREFUSED 172.18.0.7:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+11:17:36 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+11:17:38 - [32minfo[39m > 	Connected to the queue
+11:17:38 - [32minfo[39m > 	Connected to the queue
+11:17:39 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+11:17:39 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+11:17:39 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+11:17:39 - [32minfo[39m > 	Log level info
+11:17:39 - [32minfo[39m > 	Logs flushed
+11:17:39 - [32minfo[39m > 	Running version: v4.6.5
+11:17:41 - [32minfo[39m > 	Creating traefik folders
+11:17:41 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+11:17:41 - [32minfo[39m > 	Creating base folders
+11:17:41 - [32minfo[39m > 	Creating media folders
+11:17:41 - [32minfo[39m > 	TLS certificate for tipi.samohosting.lan already exists
+11:18:29 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:18:29 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+11:18:29 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+11:18:29 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/20/2025, 11:18:29 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+[31m[Nest] 1  - [39m12/20/2025, 11:18:34 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+11:19:35 - [32minfo[39m > 	Generating system env file
+11:19:36 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:19:36 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:19:36 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+11:19:36 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.3:5672 Error: connect ECONNREFUSED 172.18.0.3:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+11:19:36 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+11:19:38 - [32minfo[39m > 	Connected to the queue
+11:19:39 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+11:19:39 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+11:19:39 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+11:19:39 - [32minfo[39m > 	Log level info
+11:19:39 - [32minfo[39m > 	Logs flushed
+11:19:39 - [32minfo[39m > 	Running version: v4.6.5
+11:19:41 - [32minfo[39m > 	Creating traefik folders
+11:19:41 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+11:19:41 - [32minfo[39m > 	Creating base folders
+11:19:41 - [32minfo[39m > 	Creating media folders
+11:19:41 - [32minfo[39m > 	TLS certificate for tipi.samohosting.lan already exists
+11:19:42 - [32minfo[39m > 	Connected to the queue
+12:14:54 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+12:14:54 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+12:14:54 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+12:14:54 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/20/2025, 12:14:55 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+[31m[Nest] 1  - [39m12/20/2025, 12:15:00 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+12:15:59 - [32minfo[39m > 	Generating system env file
+12:16:00 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:16:00 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:16:00 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:16:00 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.2:5672 Error: connect ECONNREFUSED 172.18.0.2:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+12:16:00 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+12:16:02 - [32minfo[39m > 	Connected to the queue
+12:16:02 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+12:16:02 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+12:16:02 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+12:16:02 - [32minfo[39m > 	Connected to the queue
+12:16:02 - [32minfo[39m > 	Log level info
+12:16:02 - [32minfo[39m > 	Logs flushed
+12:16:02 - [32minfo[39m > 	Running version: v4.6.5
+12:16:04 - [32minfo[39m > 	Creating traefik folders
+12:16:04 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+12:16:04 - [32minfo[39m > 	Creating base folders
+12:16:04 - [32minfo[39m > 	Creating media folders
+12:16:04 - [32minfo[39m > 	Removing file homelab.crt
+12:16:04 - [32minfo[39m > 	Removing file homelab.key
+12:16:04 - [32minfo[39m > 	Generating TLS certificate for tipi.samohosting.lan
+12:16:06 - [32minfo[39m > 	Writing txt file for tipi.samohosting.lan
+12:50:35 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+12:50:35 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+12:50:35 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+12:50:35 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/20/2025, 12:50:36 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+[31m[Nest] 1  - [39m12/20/2025, 12:50:41 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+12:50:42 - [31merror[39m > 	Queue connection error getaddrinfo EAI_AGAIN runtipi-queue Error: getaddrinfo EAI_AGAIN runtipi-queue
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+12:50:42 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 3/5)
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+12:51:01 - [32minfo[39m > 	Generating system env file
+12:51:02 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:51:02 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:51:02 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:51:02 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.8:5672 Error: connect ECONNREFUSED 172.18.0.8:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+12:51:02 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+12:51:04 - [32minfo[39m > 	Connected to the queue
+12:51:05 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+12:51:05 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+12:51:05 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+12:51:06 - [32minfo[39m > 	Log level info
+12:51:06 - [32minfo[39m > 	Logs flushed
+12:51:06 - [32minfo[39m > 	Running version: v4.6.5
+12:51:07 - [32minfo[39m > 	Connected to the queue
+12:51:07 - [32minfo[39m > 	Creating traefik folders
+12:51:07 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+12:51:07 - [32minfo[39m > 	Creating base folders
+12:51:07 - [32minfo[39m > 	Creating media folders
+12:51:07 - [32minfo[39m > 	TLS certificate for tipi.samohosting.lan already exists
+12:51:31 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+12:51:31 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+12:51:31 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+12:51:31 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/20/2025, 12:51:35 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+12:51:38 - [31merror[39m > 	Queue connection error getaddrinfo EAI_AGAIN runtipi-queue Error: getaddrinfo EAI_AGAIN runtipi-queue
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+12:51:38 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 3/5)
+[31m[Nest] 1  - [39m12/20/2025, 12:51:40 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+12:52:38 - [32minfo[39m > 	Generating system env file
+12:52:39 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:52:39 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:52:39 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:52:39 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.2:5672 Error: connect ECONNREFUSED 172.18.0.2:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+12:52:39 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+12:52:41 - [32minfo[39m > 	Connected to the queue
+12:52:42 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+12:52:42 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+12:52:42 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+12:52:42 - [32minfo[39m > 	Log level info
+12:52:42 - [32minfo[39m > 	Logs flushed
+12:52:42 - [32minfo[39m > 	Running version: v4.6.5
+12:52:42 - [32minfo[39m > 	Connected to the queue
+12:52:43 - [32minfo[39m > 	Creating traefik folders
+12:52:43 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+12:52:43 - [32minfo[39m > 	Creating base folders
+12:52:43 - [32minfo[39m > 	Creating media folders
+12:52:44 - [32minfo[39m > 	TLS certificate for tipi.samohosting.lan already exists
+13:18:43 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13:18:43 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+13:18:43 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13:18:43 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/20/2025, 1:18:45 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+[31m[Nest] 1  - [39m12/20/2025, 1:18:50 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+13:18:50 - [31merror[39m > 	Queue connection error getaddrinfo EAI_AGAIN runtipi-queue Error: getaddrinfo EAI_AGAIN runtipi-queue
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+13:18:50 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 3/5)
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+13:19:49 - [32minfo[39m > 	Generating system env file
+13:19:50 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+13:19:50 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+13:19:50 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+13:19:50 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.10:5672 Error: connect ECONNREFUSED 172.18.0.10:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+13:19:50 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+13:19:52 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.10:5672 Error: connect ECONNREFUSED 172.18.0.10:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+13:19:52 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+13:19:54 - [32minfo[39m > 	Connected to the queue
+13:19:54 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+13:19:54 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+13:19:54 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+13:19:54 - [32minfo[39m > 	Log level info
+13:19:54 - [32minfo[39m > 	Connected to the queue
+13:19:54 - [32minfo[39m > 	Logs flushed
+13:19:54 - [32minfo[39m > 	Running version: v4.6.5
+13:19:56 - [32minfo[39m > 	Creating traefik folders
+13:19:56 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+13:19:56 - [32minfo[39m > 	Creating base folders
+13:19:56 - [32minfo[39m > 	Creating media folders
+13:19:56 - [32minfo[39m > 	Removing file backup_2025-12-20_1312
+13:19:56 - [32minfo[39m > 	Removing file cert.pem
+13:19:56 - [32minfo[39m > 	Removing file key.pem
+13:19:56 - [31merror[39m > 	Error removing file /data/traefik/tls/backup_2025-12-20_1312: EISDIR: illegal operation on a directory, unlink '/data/traefik/tls/backup_2025-12-20_1312' Error: EISDIR: illegal operation on a directory, unlink '/data/traefik/tls/backup_2025-12-20_1312'
+    at async Object.unlink (node:internal/fs/promises:1067:10)
+    at async h9.removeFile (file:///app/main.mjs:1462:49347)
+    at async file:///app/main.mjs:1534:11574
+    at async Promise.all (index 0)
+    at async uz.generateTlsCertificates (file:///app/main.mjs:1534:11500)
+    at async uz.bootstrap (file:///app/main.mjs:1534:8726)
+    at async IY5 (file:///app/main.mjs:1552:10000)
+13:19:56 - [32minfo[39m > 	Generating TLS certificate for tipi.samohosting.lan
+13:19:56 - [32minfo[39m > 	Connected to the queue
+13:19:57 - [32minfo[39m > 	Writing txt file for tipi.samohosting.lan
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+13:34:50 - [32minfo[39m > 	Generating system env file
+13:34:50 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+13:34:50 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+13:34:50 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+13:34:50 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.10:5672 Error: connect ECONNREFUSED 172.18.0.10:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+13:34:50 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+13:34:52 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.10:5672 Error: connect ECONNREFUSED 172.18.0.10:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+13:34:52 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+13:34:54 - [32minfo[39m > 	Connected to the queue
+13:34:54 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+13:34:54 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+13:34:54 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+13:34:54 - [32minfo[39m > 	Log level info
+13:34:54 - [32minfo[39m > 	Logs flushed
+13:34:54 - [32minfo[39m > 	Running version: v4.6.5
+13:34:55 - [32minfo[39m > 	Connected to the queue
+13:34:56 - [32minfo[39m > 	Creating traefik folders
+13:34:56 - [33mwarn[39m > 	Skipping the copy of traefik files because persistTraefikConfig is set to true
+13:34:56 - [32minfo[39m > 	Creating base folders
+13:34:56 - [32minfo[39m > 	Creating media folders
+13:34:56 - [32minfo[39m > 	Removing file backup_2025-12-20_1312
+13:34:56 - [32minfo[39m > 	Removing file cert.pem
+13:34:56 - [32minfo[39m > 	Removing file key.pem
+13:34:56 - [31merror[39m > 	Error removing file /data/traefik/tls/backup_2025-12-20_1312: EISDIR: illegal operation on a directory, unlink '/data/traefik/tls/backup_2025-12-20_1312' Error: EISDIR: illegal operation on a directory, unlink '/data/traefik/tls/backup_2025-12-20_1312'
+    at async Object.unlink (node:internal/fs/promises:1067:10)
+    at async h9.removeFile (file:///app/main.mjs:1462:49347)
+    at async file:///app/main.mjs:1534:11574
+    at async Promise.all (index 0)
+    at async uz.generateTlsCertificates (file:///app/main.mjs:1534:11500)
+    at async uz.bootstrap (file:///app/main.mjs:1534:8726)
+    at async IY5 (file:///app/main.mjs:1552:10000)
+13:34:56 - [32minfo[39m > 	Generating TLS certificate for homelab.lan
+13:34:56 - [32minfo[39m > 	Connected to the queue
+13:34:57 - [32minfo[39m > 	Writing txt file for homelab.lan
+13:37:34 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13:37:34 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+13:37:34 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13:37:34 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+13:37:34 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13:37:34 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 3/5)
+[31m[Nest] 1  - [39m12/20/2025, 1:37:35 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+[31m[Nest] 1  - [39m12/20/2025, 1:37:40 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+13:38:38 - [32minfo[39m > 	Generating system env file
+13:38:39 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+13:38:39 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+13:38:39 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+13:38:39 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.4:5672 Error: connect ECONNREFUSED 172.18.0.4:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+13:38:39 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+13:38:41 - [32minfo[39m > 	Connected to the queue
+13:38:42 - [32minfo[39m > 	Connected to the queue
+13:38:42 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+13:38:42 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+13:38:42 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+13:38:42 - [32minfo[39m > 	Log level info
+13:38:42 - [32minfo[39m > 	Logs flushed
+13:38:42 - [32minfo[39m > 	Running version: v4.6.5
+13:38:44 - [32minfo[39m > 	Creating traefik folders
+13:38:44 - [32minfo[39m > 	Copying traefik files
+13:38:44 - [32minfo[39m > 	Creating base folders
+13:38:44 - [32minfo[39m > 	Creating media folders
+13:38:44 - [32minfo[39m > 	TLS certificate for homelab.lan already exists
+16:02:03 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+16:02:03 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+16:02:03 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+16:02:03 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/20/2025, 4:02:04 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+[31m[Nest] 1  - [39m12/20/2025, 4:02:09 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+16:02:29 - [32minfo[39m > 	Generating system env file
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+16:02:31 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+16:02:31 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+16:02:31 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+16:02:31 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.6:5672 Error: connect ECONNREFUSED 172.18.0.6:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+16:02:31 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+16:02:33 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.6:5672 Error: connect ECONNREFUSED 172.18.0.6:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+16:02:33 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+16:02:34 - [32minfo[39m > 	Connected to the queue
+16:02:35 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+16:02:35 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+16:02:35 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+16:02:35 - [32minfo[39m > 	Log level info
+16:02:35 - [32minfo[39m > 	Logs flushed
+16:02:35 - [32minfo[39m > 	Running version: v4.6.5
+16:02:36 - [32minfo[39m > 	Connected to the queue
+16:02:37 - [32minfo[39m > 	Connected to the queue
+16:02:37 - [32minfo[39m > 	Creating traefik folders
+16:02:37 - [32minfo[39m > 	Copying traefik files
+16:02:37 - [32minfo[39m > 	Creating base folders
+16:02:37 - [32minfo[39m > 	Creating media folders
+16:02:37 - [32minfo[39m > 	TLS certificate for homelab.lan already exists
+19:51:36 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+19:51:36 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+19:51:36 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+19:51:36 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+19:51:36 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+19:51:36 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 3/5)
+19:51:38 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.6:5672 Error: connect ECONNREFUSED 172.18.0.6:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:51:38 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 4/5)
+[31m[Nest] 1  - [39m12/20/2025, 7:51:39 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+[31m[Nest] 1  - [39m12/20/2025, 7:51:44 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+19:52:44 - [32minfo[39m > 	Generating system env file
+19:52:45 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+19:52:45 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+19:52:45 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+19:52:45 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.2:5672 Error: connect ECONNREFUSED 172.18.0.2:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:52:45 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+19:52:47 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.2:5672 Error: connect ECONNREFUSED 172.18.0.2:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:52:47 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+19:52:49 - [32minfo[39m > 	Connected to the queue
+19:52:49 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+19:52:49 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+19:52:49 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+19:52:50 - [32minfo[39m > 	Log level info
+19:52:50 - [32minfo[39m > 	Logs flushed
+19:52:50 - [32minfo[39m > 	Running version: v4.6.5
+19:52:50 - [32minfo[39m > 	Connected to the queue
+19:52:51 - [32minfo[39m > 	Creating traefik folders
+19:52:51 - [32minfo[39m > 	Copying traefik files
+19:52:51 - [32minfo[39m > 	Creating base folders
+19:52:51 - [32minfo[39m > 	Creating media folders
+19:52:51 - [32minfo[39m > 	TLS certificate for homelab.lan already exists
+19:52:52 - [32minfo[39m > 	Connected to the queue
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+17:17:25 - [32minfo[39m > 	Generating system env file
+17:17:26 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+17:17:26 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+17:17:26 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+17:17:26 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.11:5672 Error: connect ECONNREFUSED 172.18.0.11:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+17:17:26 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+17:17:28 - [32minfo[39m > 	Connected to the queue
+17:17:28 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+17:17:28 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+17:17:28 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+17:17:28 - [32minfo[39m > 	Connected to the queue
+17:17:28 - [32minfo[39m > 	Log level info
+17:17:28 - [32minfo[39m > 	Logs flushed
+17:17:28 - [32minfo[39m > 	Running version: v4.6.5
+17:17:45 - [32minfo[39m > 	Creating traefik folders
+17:17:45 - [32minfo[39m > 	Copying traefik files
+17:17:45 - [32minfo[39m > 	Creating base folders
+17:17:45 - [32minfo[39m > 	Creating media folders
+17:17:45 - [32minfo[39m > 	TLS certificate for homelab.lan already exists
+17:20:00 - [32minfo[39m > 	Synced pihole:migrated: 'running' -> 'stopped'
+17:30:00 - [32minfo[39m > 	Synced pihole:migrated: 'stopped' -> 'running'
+17:30:05 - [32minfo[39m > 	Deleting repo migrated from /data/repos/migrated
+17:30:05 - [32minfo[39m > 	Deleted repo migrated from /data/repos/migrated
+17:30:10 - [31merror[39m > 	Request timed out Error: Request timed out
+    at ClientRequest.<anonymous> (file:///app/main.mjs:761:13461)
+    at ClientRequest.emit (node:events:519:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:919:9)
+    at Object.onceWrapper (node:events:633:28)
+    at TLSSocket.emit (node:events:531:35)
+    at Socket._onTimeout (node:net:604:8)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+17:45:00 - [32minfo[39m > 	Deleting repo migrated from /data/repos/migrated
+17:45:00 - [32minfo[39m > 	Deleted repo migrated from /data/repos/migrated
+17:45:04 - [32minfo[39m > 	Cloned repo https://github.com/runtipi/runtipi-appstore to /data/repos/migrated
+15:01:48 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml stop
+15:01:49 - [32minfo[39m > 	Copying files to backup location...
+15:01:51 - [32minfo[39m > 	Creating archive...
+15:01:52 - [32minfo[39m > 	Moving archive to backup directory... /data/backups/migrated/gitea
+15:01:52 - [32minfo[39m > 	Backup completed!
+15:01:52 - [32minfo[39m > 	Updating app gitea:migrated
+15:01:52 - [32minfo[39m > 	Pruned containers: [
+  "831b46bdfc30445e0c3d8e8fb550c25a96e655146f5ef097043e56a0c5414c53",
+  "2cc242f34cdda1fa6a8210ba5a2061346cd7f6acc70e1b2931ca43586eabb313"
+] Space reclaimed: 108.796875 MB
+15:01:52 - [32minfo[39m > 	Allocated subnet 10.128.16.0/24 for app gitea:migrated
+15:01:52 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+15:01:54 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml down --rmi all --remove-orphans
+15:01:55 - [32minfo[39m > 	Deleting app gitea:migrated folder if exists
+15:01:55 - [32minfo[39m > 	Creating app gitea:migrated folder
+15:01:55 - [32minfo[39m > 	Creating app gitea:migrated data folder
+15:01:55 - [32minfo[39m > 	Copying app gitea:migrated from repo migrated
+15:01:55 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+15:01:55 - [32minfo[39m > 	Allocated subnet 10.128.10.0/24 for app gitea:migrated
+15:01:55 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml pull
+15:02:03 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+15:02:03 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+15:02:03 - [32minfo[39m > 	Allocated subnet 10.128.16.0/24 for app gitea:migrated
+15:02:03 - [32minfo[39m > 	Starting app gitea:migrated
+15:02:03 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+15:02:03 - [32minfo[39m > 	Allocated subnet 10.128.10.0/24 for app gitea:migrated
+15:02:03 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+15:02:03 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+15:02:04 - [32minfo[39m > 	App gitea:migrated started
+15:02:04 - [32minfo[39m > 	App gitea:migrated started successfully
+22:02:14 - [32minfo[39m > 	Installing app nextcloud:migrated as User ID: 0, Group ID: 0
+22:02:14 - [32minfo[39m > 	Deleting app nextcloud:migrated folder if exists
+22:02:14 - [32minfo[39m > 	Creating app nextcloud:migrated folder
+22:02:14 - [32minfo[39m > 	Creating app nextcloud:migrated data folder
+22:02:14 - [32minfo[39m > 	Copying app nextcloud:migrated from repo migrated
+22:02:14 - [32minfo[39m > 	Creating app.env file for app nextcloud:migrated
+22:02:14 - [32minfo[39m > 	Copying data dir for app nextcloud:migrated
+22:02:14 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+22:02:15 - [32minfo[39m > 	Allocated subnet 10.128.16.0/24 for app nextcloud:migrated
+22:02:15 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/nextcloud/app.env --project-name nextcloud_migrated -f /data/apps/migrated/nextcloud/docker-compose.yml down --rmi all --remove-orphans
+22:02:15 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/nextcloud/app.env --project-name nextcloud_migrated -f /data/apps/migrated/nextcloud/docker-compose.yml up --detach --force-recreate --remove-orphans
+22:03:25 - [32minfo[39m > 	App nextcloud:migrated installed successfully
+22:24:43 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+22:24:43 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+22:24:43 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+22:24:43 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/25/2025, 10:24:47 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+22:24:50 - [31merror[39m > 	Queue connection error getaddrinfo EAI_AGAIN runtipi-queue Error: getaddrinfo EAI_AGAIN runtipi-queue
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+22:24:50 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 3/5)
+[31m[Nest] 1  - [39m12/25/2025, 10:24:52 PM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+22:25:13 - [32minfo[39m > 	Generating system env file
+22:25:14 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+22:25:14 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+22:25:14 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+22:25:14 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.3:5672 Error: connect ECONNREFUSED 172.18.0.3:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+22:25:14 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+22:25:16 - [32minfo[39m > 	Connected to the queue
+22:25:17 - [32minfo[39m > 	Connected to the queue
+22:25:17 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+22:25:17 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+22:25:17 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+22:25:17 - [32minfo[39m > 	Log level info
+22:25:17 - [32minfo[39m > 	Logs flushed
+22:25:17 - [32minfo[39m > 	Running version: v4.6.5
+22:25:19 - [32minfo[39m > 	Creating traefik folders
+22:25:19 - [32minfo[39m > 	Copying traefik files
+22:25:19 - [32minfo[39m > 	Creating base folders
+22:25:19 - [32minfo[39m > 	Creating media folders
+22:25:19 - [32minfo[39m > 	TLS certificate for homelab.lan already exists
+23:40:00 - [33mwarn[39m > 	App nextcloud:migrated has mixed container states: 3/4 running
+23:40:00 - [32minfo[39m > 	Synced nextcloud:migrated: 'running' -> 'stopped'
+23:45:00 - [33mwarn[39m > 	App nextcloud:migrated has mixed container states: 7/8 running
+23:47:29 - [32minfo[39m > 	Uninstalling app nextcloud:migrated
+23:47:29 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/nextcloud/app.env --project-name nextcloud_migrated -f /data/apps/migrated/nextcloud/docker-compose.yml down --remove-orphans -v --rmi all
+23:47:40 - [32minfo[39m > 	Successfully cleaned up all Docker resources for nextcloud:migrated
+23:47:41 - [32minfo[39m > 	App nextcloud:migrated uninstalled successfully
+01:24:22 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+01:24:22 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+01:24:22 - [31merror[39m > 	Queue connection error CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' AMQPConnectionError: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Ce4._handleChunk (file:///app/main.mjs:667:51421)
+    at A (file:///app/main.mjs:667:48329)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+01:24:22 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 2/5)
+[31m[Nest] 1  - [39m12/26/2025, 1:24:25 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+01:24:29 - [31merror[39m > 	Queue connection error getaddrinfo EAI_AGAIN runtipi-queue Error: getaddrinfo EAI_AGAIN runtipi-queue
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+01:24:29 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 3/5)
+[31m[Nest] 1  - [39m12/26/2025, 1:24:30 AM [31m  ERROR[39m [31mHealth Check has failed! {"queue":{"status":"down"}}[39m
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+01:25:32 - [32minfo[39m > 	Generating system env file
+01:25:33 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+01:25:33 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+01:25:33 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+01:25:33 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.8:5672 Error: connect ECONNREFUSED 172.18.0.8:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+01:25:33 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+01:25:35 - [32minfo[39m > 	Connected to the queue
+01:25:36 - [32minfo[39m > 	Connected to the queue
+01:25:36 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+01:25:36 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+01:25:36 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+01:25:36 - [32minfo[39m > 	Log level info
+01:25:36 - [32minfo[39m > 	Logs flushed
+01:25:36 - [32minfo[39m > 	Running version: v4.6.5
+01:25:41 - [32minfo[39m > 	Deleting repo migrated from /data/repos/migrated
+01:25:42 - [32minfo[39m > 	Deleted repo migrated from /data/repos/migrated
+01:25:47 - [31merror[39m > 	Request timed out Error: Request timed out
+    at ClientRequest.<anonymous> (file:///app/main.mjs:761:13461)
+    at ClientRequest.emit (node:events:519:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:919:9)
+    at Object.onceWrapper (node:events:633:28)
+    at TLSSocket.emit (node:events:531:35)
+    at Socket._onTimeout (node:net:604:8)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+01:25:47 - [32minfo[39m > 	Creating traefik folders
+01:25:47 - [32minfo[39m > 	Copying traefik files
+01:25:47 - [32minfo[39m > 	Creating base folders
+01:25:47 - [32minfo[39m > 	Creating media folders
+01:25:47 - [32minfo[39m > 	TLS certificate for homelab.lan already exists
+01:26:57 - [31merror[39m > 	Apps repo migrated not found. Make sure your repo is configured correctly.
+01:26:57 - [31merror[39m > 	Apps repo migrated not found. Make sure your repo is configured correctly.
+01:30:00 - [32minfo[39m > 	Deleting repo migrated from /data/repos/migrated
+01:30:00 - [32minfo[39m > 	Deleted repo migrated from /data/repos/migrated
+01:30:05 - [32minfo[39m > 	Cloned repo https://github.com/runtipi/runtipi-appstore to /data/repos/migrated
+01:48:47 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+01:48:47 - [32minfo[39m > 	Allocated subnet 10.128.17.0/24 for app gitea:migrated
+01:48:47 - [32minfo[39m > 	Stopping app gitea:migrated
+01:48:47 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml down --remove-orphans
+01:48:48 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+01:48:48 - [32minfo[39m > 	Allocated subnet 10.128.10.0/24 for app gitea:migrated
+01:48:48 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+01:48:48 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+01:48:49 - [32minfo[39m > 	App gitea:migrated restarted
+01:48:49 - [32minfo[39m > 	App gitea:migrated restarted successfully
+01:58:21 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+01:58:21 - [32minfo[39m > 	Allocated subnet 10.128.17.0/24 for app gitea:migrated
+01:58:21 - [32minfo[39m > 	Stopping app gitea:migrated
+01:58:21 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml down --remove-orphans
+01:58:21 - [32minfo[39m > 	Docker-compose exited with code 1
+01:58:21 - [33mwarn[39m > 	User-config detected, please make sure your configuration is correct before opening an issue
+01:58:21 - [31merror[39m > 	Failed to stop app gitea:migrated: service "gitea" depends on undefined service "gitea-db": invalid compose project Error: service "gitea" depends on undefined service "gitea-db": invalid compose project
+    at X3.composeApp (file:///app/main.mjs:1513:63880)
+    at async ct0.execute (file:///app/main.mjs:1519:4346)
+    at async aH.invokeCommand (file:///app/main.mjs:1519:11203)
+    at async Ve4._handler (file:///app/main.mjs:1513:40291)
+    at async Ve4._execHandler (file:///app/main.mjs:667:36810)
+01:58:21 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+01:58:21 - [32minfo[39m > 	Allocated subnet 10.128.18.0/24 for app gitea:migrated
+01:58:21 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+01:58:21 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+01:58:21 - [32minfo[39m > 	Docker-compose exited with code 1
+01:58:21 - [33mwarn[39m > 	User-config detected, please make sure your configuration is correct before opening an issue
+01:58:21 - [31merror[39m > 	Failed to restart app gitea:migrated: service "gitea" depends on undefined service "gitea-db": invalid compose project
+01:58:44 - [32minfo[39m > 	Starting app gitea:migrated
+01:58:44 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+01:58:44 - [32minfo[39m > 	Allocated subnet 10.128.17.0/24 for app gitea:migrated
+01:58:44 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+01:58:44 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+01:58:45 - [32minfo[39m > 	Docker-compose exited with code 1
+01:58:45 - [33mwarn[39m > 	User-config detected, please make sure your configuration is correct before opening an issue
+01:58:45 - [31merror[39m > 	Failed to start app gitea:migrated: service "gitea" depends on undefined service "gitea-db": invalid compose project
+01:59:40 - [32minfo[39m > 	Starting app gitea:migrated
+01:59:40 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+01:59:40 - [32minfo[39m > 	Allocated subnet 10.128.18.0/24 for app gitea:migrated
+01:59:40 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+01:59:40 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+01:59:40 - [32minfo[39m > 	Docker-compose exited with code 1
+01:59:40 - [33mwarn[39m > 	User-config detected, please make sure your configuration is correct before opening an issue
+01:59:40 - [31merror[39m > 	Failed to start app gitea:migrated: service "gitea" depends on undefined service "gitea-db": invalid compose project
+02:00:00 - [32minfo[39m > 	Synced gitea:migrated: 'stopped' -> 'running'
+02:00:16 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+02:00:16 - [32minfo[39m > 	Allocated subnet 10.128.17.0/24 for app gitea:migrated
+02:00:16 - [32minfo[39m > 	Stopping app gitea:migrated
+02:00:16 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml down --remove-orphans
+02:00:16 - [32minfo[39m > 	Docker-compose exited with code 1
+02:00:16 - [33mwarn[39m > 	User-config detected, please make sure your configuration is correct before opening an issue
+02:00:16 - [31merror[39m > 	Failed to stop app gitea:migrated: service "gitea" depends on undefined service "gitea-db": invalid compose project Error: service "gitea" depends on undefined service "gitea-db": invalid compose project
+    at X3.composeApp (file:///app/main.mjs:1513:63880)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ct0.execute (file:///app/main.mjs:1519:4346)
+    at async aH.invokeCommand (file:///app/main.mjs:1519:11203)
+    at async Ve4._handler (file:///app/main.mjs:1513:40291)
+    at async Ve4._execHandler (file:///app/main.mjs:667:36810)
+02:00:16 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+02:00:16 - [32minfo[39m > 	Allocated subnet 10.128.18.0/24 for app gitea:migrated
+02:00:16 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+02:00:16 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+02:00:16 - [32minfo[39m > 	Docker-compose exited with code 1
+02:00:16 - [33mwarn[39m > 	User-config detected, please make sure your configuration is correct before opening an issue
+02:00:16 - [31merror[39m > 	Failed to restart app gitea:migrated: service "gitea" depends on undefined service "gitea-db": invalid compose project
+02:02:30 - [32minfo[39m > 	Starting app gitea:migrated
+02:02:30 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+02:02:30 - [32minfo[39m > 	Allocated subnet 10.128.17.0/24 for app gitea:migrated
+02:02:30 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+02:02:30 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+02:02:33 - [32minfo[39m > 	App gitea:migrated started
+02:02:33 - [32minfo[39m > 	App gitea:migrated started successfully
+02:06:43 - [32minfo[39m > 	Stopping app gitea:migrated
+02:06:43 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+02:06:43 - [32minfo[39m > 	Allocated subnet 10.128.10.0/24 for app gitea:migrated
+02:06:43 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+02:06:43 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml down --remove-orphans
+02:06:44 - [32minfo[39m > 	App gitea:migrated stopped successfully
+02:06:44 - [32minfo[39m > 	App gitea:migrated stopped successfully
+02:08:22 - [32minfo[39m > 	Starting app gitea:migrated
+02:08:22 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+02:08:22 - [32minfo[39m > 	Allocated subnet 10.128.17.0/24 for app gitea:migrated
+02:08:22 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+02:08:22 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+02:08:23 - [32minfo[39m > 	App gitea:migrated started
+02:08:23 - [32minfo[39m > 	App gitea:migrated started successfully
+02:09:33 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+02:09:33 - [32minfo[39m > 	Allocated subnet 10.128.10.0/24 for app gitea:migrated
+02:09:33 - [32minfo[39m > 	Stopping app gitea:migrated
+02:09:33 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml down --remove-orphans
+02:09:33 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+02:09:33 - [32minfo[39m > 	Allocated subnet 10.128.17.0/24 for app gitea:migrated
+02:09:33 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+02:09:33 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+02:09:34 - [32minfo[39m > 	App gitea:migrated restarted
+02:09:34 - [32minfo[39m > 	App gitea:migrated restarted successfully
+02:10:19 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+02:10:19 - [32minfo[39m > 	Allocated subnet 10.128.10.0/24 for app gitea:migrated
+02:10:19 - [32minfo[39m > 	Stopping app gitea:migrated
+02:10:19 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml down --remove-orphans
+02:10:19 - [32minfo[39m > 	Pruned containers: null Space reclaimed: 0 MB
+02:10:19 - [32minfo[39m > 	Allocated subnet 10.128.17.0/24 for app gitea:migrated
+02:10:19 - [32minfo[39m > 	Regenerating app.env file for app gitea:migrated
+02:10:19 - [32minfo[39m > 	Running docker compose with args --env-file /app-data/migrated/gitea/app.env --env-file /data/user-config/migrated/gitea/app.env --project-name gitea_migrated -f /data/apps/migrated/gitea/docker-compose.yml --file /data/user-config/migrated/gitea/docker-compose.yml up --detach --force-recreate --remove-orphans
+02:10:20 - [32minfo[39m > 	App gitea:migrated restarted
+02:10:20 - [32minfo[39m > 	App gitea:migrated restarted successfully
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+12:22:37 - [32minfo[39m > 	Generating system env file
+12:22:38 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:22:38 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:22:38 - [33mwarn[39m > 	Queue connection not ready, waiting for initialization...
+12:22:38 - [31merror[39m > 	Queue connection error connect ECONNREFUSED 172.18.0.4:5672 Error: connect ECONNREFUSED 172.18.0.4:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+12:22:38 - [33mwarn[39m > 	Queue connection lost, attempting to reconnect... (attempt 1/5)
+12:22:40 - [32minfo[39m > 	Connected to the queue
+12:22:41 - [32minfo[39m > 	EventPublisher: Exchange 'app-events-queue' asserted.
+12:22:41 - [32minfo[39m > 	EventPublisher: Exchange 'repo-queue' asserted.
+12:22:41 - [32minfo[39m > 	EventPublisher: Exchange 'system-events-queue' asserted.
+12:22:41 - [32minfo[39m > 	Log level info
+12:22:41 - [32minfo[39m > 	Logs flushed
+12:22:41 - [32minfo[39m > 	Running version: v4.6.5
+12:22:42 - [32minfo[39m > 	Connected to the queue
+12:22:58 - [32minfo[39m > 	Creating traefik folders
+12:22:58 - [32minfo[39m > 	Copying traefik files
+12:22:58 - [32minfo[39m > 	Creating base folders
+12:22:58 - [32minfo[39m > 	Creating media folders
+12:22:58 - [32minfo[39m > 	TLS certificate for homelab.lan already exists
